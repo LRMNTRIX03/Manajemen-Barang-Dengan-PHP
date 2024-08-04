@@ -1,0 +1,82 @@
+.Register-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 500px;
+    height: 550px;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgb(0, 0, 1);
+    border: 1px solid black; 
+}
+
+.Register-container h1 {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-self: flex-start;
+    width: 100%;
+    text-align: center;
+    font-weight: 500; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0; 
+}
+
+.input-content {
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username-input, .password-input {
+    padding: 10px;
+    margin: 10px;
+    width: 90%; 
+    box-sizing: border-box; 
+}
+.regis-btn{
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    margin-left: 35%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.regis-btn:hover{
+    opacity: 30%;
+}
+.login-btn{
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    margin-left: 35%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.login-btn a{
+    text-decoration: none;
+    color: white;
+}
+.login-btn:hover{
+    opacity: 30%;
+}

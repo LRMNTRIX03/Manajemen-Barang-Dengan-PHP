@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav-container {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container h1 {
+    padding: 10px;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.nav-side {
+    width: 30%;
+    background-color: #ff6347; 
+    color: white; 
+    height: 100vh;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.nav-side ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-side ul li {
+    margin: 10px 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-side ul li:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.content-container {
+    display: flex;
+    justify-content: left;
+    align-items:left;
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px;
+    background-color: #f4f4f4; /* Warna latar belakang konten */
+}
+.input-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.input-item{
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-right: 50vh;
+    padding-bottom: 10px;
+}
+.side-item{
+    text-decoration: none;
+}
+.side-item li{
+    color: white;
+}
+
+.logout-container {
+    margin: 20px; 
+}
+
+.logout-button {
+    background-color: white;
+    color: #ff6347;
+    border: 2px solid #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #ff6347;
+    color: white;
+}
+.input-group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.label-item{
+    display: block;
+    margin-bottom: 10px;
+}
+#btn-simpan{
+
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    margin-left: 35%;
+    background: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#btn-simpan:hover{
+    opacity: 30%;
+    transition: 0.3s;
+}
+
